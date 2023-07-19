@@ -1,0 +1,110 @@
+h1
+{
+    color:blue;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body
+{
+    background-color:skyblue;
+}
+a
+{
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    color:indigo;
+    padding-right: 20px;
+}
+
+.header
+    {
+        width: 100%;
+        background-color: lightgray;
+        float: left;
+        height: 150px;
+    }  
+
+.slider 
+    {
+        width: 100%;
+        background-color: bisque;
+        float: left;
+    } 
+
+.box1
+    {
+        width: 25%;
+        background-color: blueviolet;
+        padding-bottom: 300px;
+        float: left;
+    }
+
+.box2
+    {
+        width: 25%;
+        background-color: pink;
+        padding-bottom: 300px;
+        float: left;
+    }
+
+.box3
+    {
+        width: 25%;
+        background-color: cornflowerblue;
+        padding-bottom: 300px;
+        float: left;
+    }
+
+.box4
+    {
+        width: 25%;
+        background-color: greenyellow;
+        padding-bottom: 300px;
+        float: left;
+    }
+
+
+.content
+    {
+        color: darkblue;
+        font-size: 16pt;
+    }
+
+table, tr, td, th
+    {
+        border:1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+table
+    {
+        width: 600px;
+    }
+
+tr
+    {
+        background-color: pink;
+    }
+
+th
+    {
+        background-color: plum;
+        color: darkmagenta;
+    }
+
+td 
+    {
+        padding: 5px;
+    }     
+
+tr:nth-child(odd)
+    {
+        background-color: lavenderblush;
+    }
+
+tr:hover
+    {
+        background-color: aquamarine;
+    }
